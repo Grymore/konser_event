@@ -139,7 +139,7 @@ class RequestPaymentController extends Controller
             return Redirect::to($result);
         } catch (\Exception $e) {
             // return Redirect::to('/');
-            alert($e);
+            echo($e);
             
         }
     }
